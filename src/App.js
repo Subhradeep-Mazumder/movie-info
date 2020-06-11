@@ -129,18 +129,18 @@ class App extends Component {
                 <center><h2>{this.props.globalmovieinfo.Title}</h2></center>
                 <div className="moviedetails">
                   <div className="allinfo">
-                    <div className="writencontent">Released: {this.props.globalmovieinfo.Released} </div>
-                    <div className="writencontent">boxoffice: {Number(this.props.globalmovieinfo.imdbRating) > 7 ? "HIT" : "FLOP"} </div>
-                    <div className="writencontent">Rated: {this.props.globalmovieinfo.Rated} </div>
-                    <div className="writencontent">Genre: {this.props.globalmovieinfo.Genre} </div>
-                    <div className="writencontent">Director: {this.props.globalmovieinfo.Director} </div>
-                    <div className="writencontent">Writer: {this.props.globalmovieinfo.Writer} </div>
-                    <div className="writencontent">Actors: {this.props.globalmovieinfo.Actors} </div>
-                    <div className="writencontent">Plot: <p>{this.props.globalmovieinfo.Plot}</p> </div>
-                    <div className="writencontent">Language: {this.props.globalmovieinfo.Language} </div>
-                    <div className="writencontent">Country: {this.props.globalmovieinfo.Country} </div>
-                    <div className="writencontent">Awards: {this.props.globalmovieinfo.Awards} </div>
-                    <div className="writencontent">imdbRating: {this.props.globalmovieinfo.imdbRating} </div>
+                    <div className="writencontent"><b>Released:</b>{this.props.globalmovieinfo.Released} </div>
+                    <div className="writencontent"><b>boxoffice:</b>{Number(this.props.globalmovieinfo.imdbRating) > 7 ? "HIT" : "FLOP"} </div>
+                    <div className="writencontent"><b>Rated:</b>{this.props.globalmovieinfo.Rated} </div>
+                    <div className="writencontent"><b>Genre:</b>{this.props.globalmovieinfo.Genre} </div>
+                    <div className="writencontent"><b>Director:</b>{this.props.globalmovieinfo.Director} </div>
+                    <div className="writencontent"><b>Writer:</b>{this.props.globalmovieinfo.Writer} </div>
+                    <div className="writencontent"><b>Actors:</b>{this.props.globalmovieinfo.Actors} </div>
+                    <div className="writencontent"><b>Plot:</b> <p>{this.props.globalmovieinfo.Plot}</p> </div>
+                    <div className="writencontent"><b>Language:</b>{this.props.globalmovieinfo.Language} </div>
+                    <div className="writencontent"><b>Country:</b>{this.props.globalmovieinfo.Country} </div>
+                    <div className="writencontent"><b>Awards:</b>{this.props.globalmovieinfo.Awards} </div>
+                    <div className="writencontent"><b>imdbRating:</b>{this.props.globalmovieinfo.imdbRating} </div>
                   </div>
                   <div className="image-wrapper">
                   {this.props.globalmovieinfo.Poster==="N/A"?"N/A":
